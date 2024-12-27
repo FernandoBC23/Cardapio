@@ -8,13 +8,10 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-# Estilo visual com HTML e CSS
+# Estilo visual com CSS responsivo
 st.markdown("""
     <style>
-    .main {
-        background-color: #fff7e6;
-        padding: 1rem;
-    }
+    /* Estilo para telas maiores */
     .title {
         color: #d35400;
         text-align: center;
@@ -46,12 +43,30 @@ st.markdown("""
         margin-top: 2rem;
         font-size: 1.2rem;
     }
+
+    /* Estilo responsivo para telas menores */
+    @media (max-width: 768px) {
+        .title {
+            font-size: 1.8rem;
+        }
+        .subtitle {
+            font-size: 1.2rem;
+        }
+        .section-header {
+            font-size: 1.5rem;
+        }
+        .item {
+            font-size: 1rem;
+        }
+        .price {
+            font-size: 1rem;
+        }
+        .contact {
+            font-size: 1rem;
+        }
+    }
     </style>
 """, unsafe_allow_html=True)
-
-# Título do Cardápio
-# st.markdown("<div class='title'>Gastronomia Thalita Chagas</div>", unsafe_allow_html=True)
-# st.markdown("<div class='subtitle'>Cardápio de Verão</div>", unsafe_allow_html=True)
 
 # Título com a logo
 col1, col2 = st.columns([1, 4])
@@ -59,7 +74,6 @@ with col1:
     st.image("logo.webp", use_container_width=True)
 with col2:
     st.markdown("<div class='title'>Gastronomia Thalita Chagas</div>", unsafe_allow_html=True)
-
 
 # Descrição inicial
 st.markdown("Este cardápio oferece uma deliciosa variedade de opções para alegrar o seu verão, desde entradas refrescantes e leves até doces irresistíveis. Desfrute dos sabores cuidadosamente preparados pela **Gastronomia Thalita Chagas**!")
