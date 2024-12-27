@@ -66,7 +66,7 @@ st.markdown("""
 # Título com logo
 col1, col2 = st.columns([1, 4])
 with col1:
-    st.image("logo.webp", use_container_width=True)
+    st.image("Logotipo.png", use_container_width=True)
 with col2:
     st.markdown("<div class='title'>Gastronomia Thalita Chagas</div>", unsafe_allow_html=True)
 
