@@ -105,7 +105,14 @@ with tab1:
         st.image("foto_sanduiche_prensado.jpeg", caption="Sanduíche Prensado", use_container_width=True)
     with col2:
         st.write("")
-        # st.image("", caption="Terrine de Salmão e Doce de Ovos e Presunto", use_container_width=True)
+        st.image("foto_mousse_atum.jpeg", caption="Mousse de Atum", use_container_width=True)
+
+    col1, col2 = st.columns(2)
+    with col1:
+        st.image("foto_torta_fria_atum.jpeg", caption="Torta Fria de Atum", use_container_width=True)
+    with col2:
+        st.write("")
+        st.image("foto_torta_fria_frango.jpeg", caption="Torta Fria de Frango", use_container_width=True)
 
 # Tab 2: Doces
 with tab2:
