@@ -72,8 +72,8 @@ with col2:
 
 # Descrição inicial
 st.markdown("""
-Este cardápio oferece uma deliciosa variedade de opções para alegrar o seu verão, desde entradas refrescantes e leves até doces irresistíveis. 
-Desfrute dos sabores cuidadosamente preparados pela **Gastronomia Thalita Chagas**!
+Celebre o Réveillon com sabores únicos e marcantes! Este cardápio foi pensado para tornar sua virada do ano ainda mais especial, com entradas leves, pratos refinados e doces que encantam a todos.  
+Desfrute da magia dos sabores cuidadosamente preparados pela **Gastronomia Thalita Chagas** e receba o novo ano com muito sabor e elegância!
 """)
 
 # Tabs para organização
@@ -128,15 +128,15 @@ with tab2:
 
     col1, col2 = st.columns(2)
     with col1:
-        st.image("foto_pavlova_frutas_vermelhas.jpeg", caption="Pavlova Frutas Vermelhas", use_container_width=True)
+        st.image("foto_pavlova_frutas_vermelhas.jpeg", caption="Mini Pavlova Frutas Vermelhas", use_container_width=True)
     with col2:
-        st.image("foto_pavlova_maracuja.jpeg", caption="Pavlova de Maracujá", use_container_width=True)
+        st.image("foto_pavlova_maracuja.jpeg", caption="Mini Pavlova de Maracujá", use_container_width=True)
 
     col1, col2 = st.columns(2)
     with col1:
-        st.image("foto_bolo_choco.jpeg", caption="Bolo de Chocolate", use_container_width=True)
+        st.image("foto_bolo_choco.jpeg", caption="Bolotone Vulcão Brigadeiro", use_container_width=True)
     with col2:
-        st.image("foto_bolo.jpeg", caption="Bolo", use_container_width=True)
+        st.image("foto_bolo.jpeg", caption="Torta Olho de Sogra", use_container_width=True)
 
 # Tab 3: Contato
 with tab3:
