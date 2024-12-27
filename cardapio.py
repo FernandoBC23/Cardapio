@@ -56,7 +56,7 @@ st.markdown("""
 # Título com a logo
 col1, col2 = st.columns([1, 4])
 with col1:
-    st.image("logo.webp", use_column_width=True)
+    st.image("logo.webp", use_container_width=True)
 with col2:
     st.markdown("<div class='title'>Gastronomia Thalita Chagas</div>", unsafe_allow_html=True)
 
@@ -71,7 +71,7 @@ col1, col2 = st.columns(2)
 with col1:
     st.image("Foto_4.JPG", caption="Terrines de Tomate Seco", use_container_width=True)
 with col2:
-    st.image("Foto_5.JPG", caption="Terrine de Salmão e Doce de Ovos e Presunto", use_column_width=True)
+    st.image("Foto_5.JPG", caption="Terrine de Salmão e Doce de Ovos e Presunto", use_container_width=True)
 
 # Seção: Entradas e Salgados
 st.markdown("<div class='section-header'>Entradas e Salgados</div>", unsafe_allow_html=True)
@@ -93,9 +93,9 @@ st.markdown("<div class='section-header'>Imagens de Doces</div>", unsafe_allow_h
 col1, col2 = st.columns(2)
 
 with col1:
-    st.image("Foto_2.jpeg", caption="Camafeus", use_column_width=True)
+    st.image("Foto_2.jpeg", caption="Camafeus", use_container_width=True)
 with col2:
-    st.image("Foto_3.jpeg", caption="Quindim", use_column_width=True)
+    st.image("Foto_3.jpeg", caption="Quindim", use_container_width=True)
 
 # Seção: Doces
 st.markdown("<div class='section-header'>Doces</div>", unsafe_allow_html=True)
