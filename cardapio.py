@@ -124,7 +124,7 @@ with tab3:
     st.markdown("<div class='section-header'>Contato</div>", unsafe_allow_html=True)
     st.markdown("""
     <div class='contact'>
-        <p><strong>📞 Contato para pedidos:</strong> <a href="https://wa.me/5547988361578" target="_blank">WhatsApp</a></p>
+        <p><strong>📞 Contato para pedidos:</strong> <a href="https://wa.me/5547988361578" target="_blank">47 98836 1578 (WhatsApp)</a></p>
         <p><strong>✉️ E-mail:</strong> <a href='mailto:thalitachagas2005@gmail.com'>thalitachagas2005@gmail.com</a></p>
         <p><strong>📸 Instagram:</strong> <a href='https://instagram.com/gastronomiatalitachagasitapema' target='_blank'>@gastronomiatalitachagasitapema</a></p>
     </div>
