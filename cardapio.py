@@ -100,6 +100,13 @@ with tab1:
     with col2:
         st.image("Foto_5.JPG", caption="Terrine de Salmão e Doce de Ovos e Presunto", use_container_width=True)
 
+    col1, col2 = st.columns(2)
+    with col1:
+        st.image("foto_sanduiche_prensado.jpeg", caption="Sanduíche Prensado", use_container_width=True)
+    with col2:
+        st.write("")
+        # st.image("", caption="Terrine de Salmão e Doce de Ovos e Presunto", use_container_width=True)
+
 # Tab 2: Doces
 with tab2:
     st.markdown("<div class='section-header'>Doces</div>", unsafe_allow_html=True)
@@ -118,6 +125,18 @@ with tab2:
         st.image("Foto_2.jpeg", caption="Camafeus", use_container_width=True)
     with col2:
         st.image("Foto_3.jpeg", caption="Quindim", use_container_width=True)
+
+    col1, col2 = st.columns(2)
+    with col1:
+        st.image("foto_pavlova_frutas_vermelhas.jpeg", caption="Pavlova Frutas Vermelhas", use_container_width=True)
+    with col2:
+        st.image("foto_pavlova_maracuja.jpeg", caption="Pavlova de Maracujá", use_container_width=True)
+
+    col1, col2 = st.columns(2)
+    with col1:
+        st.image("foto_bolo_choco.jpeg", caption="Bolo de Chocolate", use_container_width=True)
+    with col2:
+        st.image("foto_bolo.jpeg", caption="Bolo", use_container_width=True)
 
 # Tab 3: Contato
 with tab3:
