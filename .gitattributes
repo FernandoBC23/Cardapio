@@ -1,2 +1,13 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Ambiente virtual
+venv/
+env/
+.venv_cardapio
+
+# Arquivos Python compilados
+*.pyc
+__pycache__/
+
+
